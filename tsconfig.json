@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "target": "es2015",
+    "lib": [
+      "ESNext",
+      "dom"
+    ],
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "coverage",
+    "node_modules",
+    "chrome-data",
+    "build",
+    "acceptance-tests",
+    "jest",
+    "src/setupTests.ts",
+    "dist",
+    "dist-test"
+  ]
+}
